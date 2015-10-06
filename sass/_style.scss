@@ -1,0 +1,15 @@
+﻿//**********************************************************/
+//**********************************************************/
+body{
+  word-wrap: normal;
+}
+.js .disn{
+  display: block;
+}
+.widget_invisible, .js .invi, .js .mse_pre_init, .js .an_invi{
+  visibility: visible;
+}
+#page{
+  min-height: auto;
+}
+@import "main";
