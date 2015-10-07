@@ -12,4 +12,25 @@ body{
 #page{
   min-height: auto;
 }
+.mymessage {
+  width: 900px;
+  .messages{
+    width: 100%;
+  }
+}
+.myaccordion_left{
+  background-color: #ff625f;
+  margin-right: -10000px;
+  position: relative;
+  width: 454px;
+  z-index: 868;
+}
+.myaccordion_right{
+  background-color: #ff625f;
+  left: 480px;
+  margin-right: -10000px;
+  position: relative;
+  width: 454px;
+  z-index: 743;
+}
 @import "main";
