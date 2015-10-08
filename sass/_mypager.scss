@@ -1,0 +1,50 @@
+.mypager{
+  //clear: both;
+  margin: 0px 0px 0px 169px;
+  @include clearfix();
+  float: left;
+  &_text{
+    background-color: #2c3e51;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+    min-height: 29px;
+    text-align: center;
+    width: 50px;
+    //text-transform: uppercase;
+    font-weight: 800;
+    font-family: open-sans,sans-serif;
+    float: left;
+  }
+  &_item{
+    float: left;
+    background-color: #e74c3c;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+    min-height: 29px;
+    text-align: center;
+    width: 29px;
+    font-weight: 800;
+    font-family: open-sans,sans-serif;
+    a{
+      display: block;
+      background-color: #2c3e51;
+      @include link(#ffffff, #ffffff);
+      font-size: 20px;
+      line-height: 30px;
+      min-height: 29px;
+      text-align: center;
+      width: 29px;
+      font-weight: 800;
+      font-family: open-sans,sans-serif;
+      text-decoration: none;
+      &:hover{
+        background-color: #e74c3c;
+      }
+    }
+  }
+  &_list{
+    float: left;
+  }
+}
