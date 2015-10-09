@@ -27,6 +27,10 @@ body {
   word-wrap: normal;
 }
 
+.st-pusher {
+  min-height: 511px;
+}
+
 .js .disn {
   display: block;
 }
@@ -107,11 +111,77 @@ body {
 * html .velo {
   height: 1%;
 }
+.velo .views-exposed-form {
+  position: relative;
+}
+.velo .views-exposed-form .views-exposed-widget {
+  padding: 0px;
+}
 .velo .views-exposed-form .bef-select-as-links .form-item-edit-field-typevelo-tid-all {
   display: none;
 }
 .velo .views-exposed-form .bef-select-as-links .form-type-bef-link {
   float: left;
+}
+.velo .views-exposed-form .bef-select-as-links a {
+  display: block;
+  color: #0e76bc;
+  font-size: 20px;
+  line-height: 30px;
+  min-height: 29px;
+  text-align: center;
+  font-weight: 800;
+  font-family: open-sans,sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0px 5px 0px 5px;
+  margin: 0px 0px 0px 15px;
+}
+.velo .views-exposed-form .bef-select-as-links a:visited {
+  color: #0e76bc;
+}
+.velo .views-exposed-form .bef-select-as-links a:hover {
+  color: #0e76bc;
+}
+.velo .views-exposed-form .bef-select-as-links a:active {
+  color: #0e76bc;
+}
+.velo .views-exposed-form .bef-select-as-links a:focus {
+  color: #0e76bc;
+}
+.velo .views-exposed-form .bef-select-as-links a:hover {
+  background-color: #c9c9c9;
+}
+.velo .views-exposed-form .bef-select-as-links a.active {
+  background-color: #e74c3c;
+  color: #ffffff;
+}
+.velo .views-exposed-form .bef-select-as-links a.active:visited {
+  color: #ffffff;
+}
+.velo .views-exposed-form .bef-select-as-links a.active:hover {
+  color: #ffffff;
+}
+.velo .views-exposed-form .bef-select-as-links a.active:active {
+  color: #ffffff;
+}
+.velo .views-exposed-form .bef-select-as-links a.active:focus {
+  color: #ffffff;
+}
+.velo .views-exposed-form .ajax-progress {
+  position: absolute;
+  top: 8px;
+  left: -10px;
+}
+.velo .views-exposed-form .ajax-progress .throbber {
+  background: transparent url("../images/ajax-loader.gif") no-repeat 0px 0px;
+  /* tweak this according to your gif */
+  float: left;
+  height: 16px;
+  /* tweak this according to your gif */
+  width: 16px;
+  /* tweak this according to your gif */
+  margin: 0px;
 }
 .velo_top {
   float: left;
@@ -864,8 +934,14 @@ body {
   cursor: pointer;
 }
 
+.pager_bottom {
+  text-align: center;
+  padding: 28px 0px 0px 0px;
+}
+
 .mypager {
   margin: 0px 0px 0px 169px;
+  position: relative;
   display: inline-block;
   /* ╨Я╤А╤П╤З╨╡╨╝ ╤Б╤В╨╕╨╗╨╕ ╨╛╤В IE ╨┤╨╗╤П mac \*/
   * zoom: 1;
@@ -883,6 +959,13 @@ body {
 }
 * html .mypager {
   height: 1%;
+}
+.pager_bottom .mypager {
+  margin: 0px 0px 0px 0px;
+  clear: both;
+  float: none;
+  display: inline-block;
+  vertical-align: bottom;
 }
 .mypager_text {
   background-color: #2c3e51;
@@ -938,6 +1021,21 @@ body {
 }
 .mypager_list {
   float: left;
+}
+.mypager .ajax-progress {
+  position: absolute;
+  top: 8px;
+  left: -25px;
+}
+.mypager .ajax-progress .throbber {
+  background: transparent url("../images/ajax-loader.gif") no-repeat 0px 0px;
+  /* tweak this according to your gif */
+  float: left;
+  height: 16px;
+  /* tweak this according to your gif */
+  width: 16px;
+  /* tweak this according to your gif */
+  margin: 0px;
 }
 
 /*# sourceMappingURL=all-old-ie.css.map */
