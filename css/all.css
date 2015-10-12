@@ -192,6 +192,19 @@ body {
   float: left;
 }
 
+.node-type-display-access .logo {
+  float: none;
+  padding: 0px;
+  width: auto;
+}
+
+.myaccess {
+  width: 960px;
+}
+.myaccess tbody {
+  border-top: none;
+}
+
 .myitem {
   margin: 0px 0px 0px 13px;
   display: block;
@@ -228,6 +241,17 @@ body {
   margin: 48px 0px 0px 0px;
   width: 168px;
   float: right;
+}
+.myprice_wrap {
+  background-color: transparent;
+  font-family: open-sans,sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  margin-right: -10000px;
+  min-height: 62px;
+  position: relative;
+  width: 183px;
+  z-index: 149;
 }
 
 .mydescr {
