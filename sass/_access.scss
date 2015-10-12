@@ -1,0 +1,51 @@
+.access{
+	width: 960px;
+	&_top{
+    @include clearfix();
+    h1{
+      text-transform: uppercase;
+      font-weight: 800;
+      font-family: open-sans,sans-serif;
+      background-color: #e74c3c;
+      color: #ffffff;
+      font-size: 20px;
+      line-height: 30px;
+      min-height: 30px;
+      text-align: center;
+      width: 146px;
+      float: left;
+      width: 189px;
+    }
+    a{
+    	@include link(#ffffff, #ffffff);
+    	text-decoration: none;
+    }
+  }
+  &_right{
+  	float: right;
+  	display: block;
+  	width: 162px;
+  	background-color: #0e76bc;
+  	text-decoration: none;
+  	text-transform: uppercase;
+    font-weight: 800;
+    font-family: open-sans,sans-serif;
+    @include link(#ffffff, #ffffff);
+    font-size: 20px;
+    line-height: 30px;
+    min-height: 30px;
+    text-align: center;
+    //width: 146px;
+  }
+  &_wrap{
+  	padding: 18px 0px 0px 232px;
+  	div{
+  		margin: 0px 0px 14px 0px;
+  	}
+  	a{
+  		font-family: Tahoma,Arial,Helvetica,sans-serif;
+  		@include link(#000000, #2c3e51);
+  		font-size: 19px;
+  	}
+  }
+}

@@ -30,7 +30,8 @@
   }
   &_item{
     float: left;
-    background-color: #e74c3c;
+    background-color: #e74c3c !important;
+    padding: 0px !important;
     color: #ffffff;
     font-size: 20px;
     line-height: 30px;
@@ -50,7 +51,7 @@
       width: 29px;
       font-weight: 800;
       font-family: open-sans,sans-serif;
-      text-decoration: none;
+      text-decoration: none !important;
       &:hover{
         background-color: #e74c3c;
       }
@@ -58,6 +59,7 @@
   }
   &_list{
     float: left;
+    margin: 0px !important;
   }
   .ajax-progress{
     position: absolute;

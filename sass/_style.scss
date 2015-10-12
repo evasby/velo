@@ -119,7 +119,7 @@ body{
     }
   }
 }
-.node-type-display-access .logo{
+.node-type-display-access .logo, .page-taxonomy-term .logo{
   float: none;
   padding: 0px;
   width: auto;
@@ -202,3 +202,5 @@ body{
 }
 @import "main";
 @import "mypager";
+@import "access";
+@import "access-prod";
