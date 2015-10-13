@@ -27,6 +27,14 @@ body {
   word-wrap: normal;
 }
 
+#user-login input {
+  border: 1px solid #ABADB3;
+}
+
+#user-register-form input {
+  border: 1px solid #ABADB3;
+}
+
 .st-pusher {
   min-height: 511px;
 }
