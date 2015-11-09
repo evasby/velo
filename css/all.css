@@ -27,6 +27,18 @@ body {
   word-wrap: normal;
 }
 
+.thule_logo {
+  position: absolute;
+  top: 15px;
+  left: 0px;
+}
+
+.thule_text {
+  position: absolute;
+  top: 0px;
+  left: 121px;
+}
+
 #u11656-9 {
   left: 675px;
 }
