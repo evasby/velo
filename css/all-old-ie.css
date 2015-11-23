@@ -27,6 +27,11 @@ body {
   word-wrap: normal;
 }
 
+.thule_saleprice {
+  display: block;
+  text-decoration: line-through;
+}
+
 .thule_logo {
   position: absolute;
   top: 15px;
@@ -1504,7 +1509,10 @@ body {
   color: #000000;
 }
 .thule_prod .boxprod {
-  height: 327px;
+  height: 360px;
+}
+.thule_prod .dprice {
+  min-height: 51px;
 }
 
 /*# sourceMappingURL=all-old-ie.css.map */

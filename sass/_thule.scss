@@ -145,7 +145,10 @@
   }
   &_prod{
     .boxprod{
-      height: 327px;
+      height: 360px;
+    }
+    .dprice{
+      min-height: 51px;
     }
   }
 }
