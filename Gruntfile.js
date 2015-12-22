@@ -47,7 +47,7 @@ module.exports = function(grunt) {
 			    css: {
                     options: {
                         authKey: 'key1',
-                        host: 'webformat.by',
+                        host: 'velogrand.by',
                         //dest: '/home/evasby/www/wfs.by/layout',
                         dest: 'www/velogrand.by/sites/all/themes/velogrand',
                         port: 21
