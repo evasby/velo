@@ -98,19 +98,19 @@
 }
 //*********************************************************************************/
 @mixin def-link-colors($normal, $hover, $active, $visited, $focus){
-  color:$normal;
-    &:visited{color:$visited;};
-    &:hover{color:$hover;};
-    &:active{color:$active;}; 
-    &:focus{color:$focus;}; 
+  color:$normal !important;
+    &:visited{color:$visited !important;};
+    &:hover{color:$hover !important;};
+    &:active{color:$active !important;}; 
+    &:focus{color:$focus !important;}; 
 }
 //*********************************************************************************/
 @mixin link($normal, $hover){
-  color:$normal;
-    &:visited{color:$normal;};
-    &:hover{color:$hover;};
-    &:active{color:$normal;}; 
-    &:focus{color:$normal;}; 
+  color:$normal !important;
+    &:visited{color:$normal !important;};
+    &:hover{color:$hover !important;};
+    &:active{color:$normal !important;}; 
+    &:focus{color:$normal !important;}; 
 }
 //*********************************************************************************/
 @mixin def-opacity($value){

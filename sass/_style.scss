@@ -3,6 +3,10 @@
 //**********************************************************/
 body{
   word-wrap: normal;
+  overflow-x: visible;
+  &.front #u249{
+    min-height: auto;
+  }
 }
 .thule_saleprice{
   display: block;
@@ -267,3 +271,5 @@ body{
 @import "thule";
 
 @import "brand-descr";
+@import "newslider";
+@import "newmenu";
