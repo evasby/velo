@@ -135,6 +135,30 @@ body.front #u249 {
 .velo #views-exposed-form-bike2-default .form-radios {
   float: left;
 }
+.velo .views-exposed-form .views-exposed-widgets {
+  width: 960px;
+  padding: 0 0 0 13px;
+  position: relative;
+}
+.velo .views-exposed-form .views-exposed-widget.views-widget-filter-field_catvelo_tid {
+  float: right;
+  margin-right: 23px;
+}
+.velo .views-exposed-form .views-exposed-widget.views-widget-filter-field_catvelo_tid a.active {
+  color: #e74c3c !important;
+}
+.velo .views-exposed-form .views-exposed-widget.views-widget-filter-field_catvelo_tid a.active:visited {
+  color: #e74c3c !important;
+}
+.velo .views-exposed-form .views-exposed-widget.views-widget-filter-field_catvelo_tid a.active:hover {
+  color: #e74c3c !important;
+}
+.velo .views-exposed-form .views-exposed-widget.views-widget-filter-field_catvelo_tid a.active:active {
+  color: #e74c3c !important;
+}
+.velo .views-exposed-form .views-exposed-widget.views-widget-filter-field_catvelo_tid a.active:focus {
+  color: #e74c3c !important;
+}
 .velo_clear {
   clear: both;
 }
@@ -172,9 +196,6 @@ body.front #u249 {
 * html .velo {
   height: 1%;
 }
-.velo .views-exposed-form {
-  position: relative;
-}
 .velo .views-exposed-form .views-exposed-widget {
   padding: 0px;
 }
@@ -188,7 +209,7 @@ body.front #u249 {
   display: block;
   color: #0e76bc !important;
   font-size: 12px;
-  line-height: 21px;
+  line-height: 18px;
   min-height: 29px;
   text-align: center;
   font-weight: 800;
@@ -212,8 +233,8 @@ body.front #u249 {
 }
 .velo .views-exposed-form .ajax-progress {
   position: absolute;
-  top: 2px;
-  right: -15px;
+  top: 40px;
+  left: 470px;
 }
 .velo .views-exposed-form .ajax-progress .throbber {
   background: transparent url("../images/ajax-loader.gif") no-repeat 0px 0px;

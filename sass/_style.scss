@@ -98,8 +98,19 @@ body{
       float: left;
     }
   }
+  .views-exposed-form .views-exposed-widgets{
+    width: 960px;
+    padding: 0 0 0 13px;
+    position: relative;
+  }
   .views-exposed-form .views-exposed-widget{
-    //width: 500px;
+    &.views-widget-filter-field_catvelo_tid{
+      float: right;
+      margin-right: 23px;
+      & a.active{
+        @include link(#e74c3c, #e74c3c);
+      }
+    }
   }
   &_clear{
     clear: both;
@@ -114,7 +125,7 @@ body{
   @include clearfix();
   width: 960px;
   .views-exposed-form{
-    position: relative;
+    //position: relative;
     .views-exposed-widget{
       padding: 0px;
     }
@@ -131,7 +142,7 @@ body{
         //background-color: #2c3e51;
         @include link(#0e76bc, #0e76bc);
         font-size: 12px;
-        line-height: 21px;
+        line-height: 18px;
         min-height: 29px;
         text-align: center;
         //width: 29px;
@@ -154,8 +165,8 @@ body{
       position: absolute;
       //top: 10px;
       //left: -6px;
-      top: 2px;
-      right: -15px;
+      top: 40px;
+      left: 470px;
       .throbber {
         background: transparent url('../images/ajax-loader.gif') no-repeat 0px 0px; /* tweak this according to your gif */
         float: left;
