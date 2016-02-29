@@ -8,6 +8,23 @@ body{
     min-height: auto;
   }
 }
+.content{
+  em{
+    font-style: italic;
+  }
+  h1{
+    font-size: 22px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  h3{
+    font-size: 18px;
+  }
+  b, strong{
+    font-weight: bold;
+  }
+}
 .thule_saleprice{
   display: block;
   text-decoration: line-through;

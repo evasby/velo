@@ -26,7 +26,7 @@
     display: inline-block;
     text-align: left;
     line-height: 35px;
-    font-size: 20px;
+    font-size: 18px;
     vertical-align: top;
 		@include old-ie{
 			*display : inline;
@@ -35,7 +35,7 @@
 	}
 	&_link{
 		display: inline-block;
-		padding: 0 30px;
+		padding: 0 20px;
 		white-space: nowrap;
 		text-decoration: none !important;
 		text-transform: uppercase;
