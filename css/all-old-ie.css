@@ -30,6 +30,9 @@ body {
 body.front #u249 {
   min-height: auto;
 }
+body.page-node-12 #u249 {
+  min-height: auto;
+}
 
 .content em {
   font-style: italic;
@@ -2103,6 +2106,74 @@ body.front #u249 {
 }
 .newmenu_link:hover {
   background: rgba(0, 0, 0, 0.2);
+}
+
+.veloarticle h1, .veloarticle h2 {
+  font-family: open-sans,sans-serif;
+  background-color: #e74c3c;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  min-height: 30px;
+  position: relative;
+  text-align: center;
+  width: 146px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.veloarticle h2 {
+  margin-top: 25px;
+}
+.veloarticle p {
+  margin-bottom: 15px;
+}
+.veloarticle ol {
+  padding-left: 15px;
+  list-style-type: decimal;
+  margin-bottom: 15px;
+}
+.veloarticle ol li {
+  list-style: outside decimal;
+}
+.veloarticle ul {
+  padding-left: 15px;
+  list-style-type: disc;
+  margin-bottom: 15px;
+}
+.veloarticle ul li {
+  list-style: outside disc;
+}
+.veloarticle .form_wrap {
+  float: right;
+  position: relative;
+  height: 272px;
+  width: 390px;
+}
+.veloarticle #u11666 {
+  background-color: #f0f0f0;
+  border-color: #c9c9c9;
+  border-radius: 5px 5px 0 0;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 0 8px rgba(127, 127, 127, 0.05), 0 0 8px rgba(127, 127, 127, 0.05);
+  height: 244px;
+  left: 0;
+  margin-right: 0;
+  margin-top: 25px;
+  position: absolute;
+  width: 383px;
+  z-index: 231;
+}
+.veloarticle #widgetu11667 {
+  height: 245px;
+  left: 0;
+  margin-right: 0;
+  margin-top: 32px;
+  position: absolute;
+  width: 0.01px;
+  z-index: 232;
 }
 
 /*# sourceMappingURL=all-old-ie.css.map */

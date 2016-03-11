@@ -7,6 +7,9 @@ body{
   &.front #u249{
     min-height: auto;
   }
+  &.page-node-12 #u249{
+    min-height: auto;
+  }
 }
 .content{
   em{
@@ -301,3 +304,4 @@ body{
 @import "brand-descr";
 @import "newslider";
 @import "newmenu";
+@import "veloarticle";
