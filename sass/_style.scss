@@ -28,6 +28,14 @@ body{
     font-weight: bold;
   }
 }
+.node-news{
+  width: 940px;
+  padding: 0 0 15px;
+  h1{
+    width: 360px;
+    margin-bottom: 15px;
+  }
+}
 .thule_saleprice{
   display: block;
   text-decoration: line-through;
@@ -305,3 +313,4 @@ body{
 @import "newslider";
 @import "newmenu";
 @import "veloarticle";
+@import "newslist";

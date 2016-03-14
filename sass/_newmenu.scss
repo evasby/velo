@@ -4,9 +4,8 @@
 	
 	&_list{
 		text-align: justify;
-		font-family: open-sans,sans-serif;
-		font-size: 20px;
-    line-height: 0;
+		
+    line-height: 0!important;
     font-size: 1px;
     @include old-ie{
     	*text-justify: newspaper;
@@ -34,8 +33,10 @@
 		}
 	}
 	&_link{
+		font-family: open-sans,sans-serif!important;
+		font-size: 20px!important;
 		display: inline-block;
-		padding: 0 20px;
+		padding: 0 12px;
 		white-space: nowrap;
 		text-decoration: none !important;
 		text-transform: uppercase;

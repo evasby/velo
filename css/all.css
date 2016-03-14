@@ -50,6 +50,15 @@ body.page-node-12 #u249 {
   font-weight: bold;
 }
 
+.node-news {
+  width: 940px;
+  padding: 0 0 15px;
+}
+.node-news h1 {
+  width: 360px;
+  margin-bottom: 15px;
+}
+
 .thule_saleprice {
   display: block;
   text-decoration: line-through;
@@ -2009,9 +2018,7 @@ body.page-node-12 #u249 {
 }
 .newmenu_list {
   text-align: justify;
-  font-family: open-sans,sans-serif;
-  font-size: 20px;
-  line-height: 0;
+  line-height: 0 !important;
   font-size: 1px;
   text-align-last: justify;
 }
@@ -2031,8 +2038,10 @@ body.page-node-12 #u249 {
   vertical-align: top;
 }
 .newmenu_link {
+  font-family: open-sans, sans-serif !important;
+  font-size: 20px !important;
   display: inline-block;
-  padding: 0 20px;
+  padding: 0 12px;
   white-space: nowrap;
   text-decoration: none !important;
   text-transform: uppercase;
@@ -2126,6 +2135,52 @@ body.page-node-12 #u249 {
   position: absolute;
   width: 0.01px;
   z-index: 232;
+}
+
+.newslist {
+  width: 940px;
+  padding: 0 0 15px;
+}
+.newslist_title {
+  background-color: #e74c3c;
+  color: #ffffff;
+  font-family: open-sans,sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 30px;
+  min-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 189px;
+  margin-bottom: 15px;
+}
+.newslist_item {
+  display: inline-block;
+  /* ╨Я╤А╤П╤З╨╡╨╝ ╤Б╤В╨╕╨╗╨╕ ╨╛╤В IE ╨┤╨╗╤П mac \*/
+  display: block;
+  border-top: 1px solid #ccc;
+  padding: 15px 0;
+}
+.newslist_item:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+.newslist_item:first-child {
+  border: none;
+}
+.newslist_image {
+  float: left;
+}
+.newslist_text {
+  padding-left: 280px;
+}
+.newslist_text h2 {
+  margin-bottom: 15px;
 }
 
 /*# sourceMappingURL=all.css.map */
