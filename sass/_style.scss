@@ -50,6 +50,10 @@ body{
   top: 0px;
   left: 121px;
 }
+#u7957 p{
+  font-size: 10px!important;
+  //font-weight: bold!important;
+}
 #u11656-10
 {
   z-index: 72;
@@ -314,3 +318,4 @@ body{
 @import "newmenu";
 @import "veloarticle";
 @import "newslist";
+@import "cart";

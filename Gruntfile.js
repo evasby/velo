@@ -27,9 +27,9 @@ module.exports = function(grunt) {
                 },
                 files: {
                     'css/all.css': 'sass/all.scss',
-                    'd:/OpenServer/domains/velogrand2/sites/all/themes/velogrand/css/all.css': 'sass/all.scss',
+                    'd:/OpenServer/domains/velogrand/sites/all/themes/velogrand/css/all.css': 'sass/all.scss',
                     'css/all-old-ie.css': 'sass/all-old-ie.scss',
-                    'd:/OpenServer/domains/velogrand2/sites/all/themes/velogrand/css/all-old-ie.css': 'sass/all-old-ie.scss',
+                    'd:/OpenServer/domains/velogrand/sites/all/themes/velogrand/css/all-old-ie.css': 'sass/all-old-ie.scss',
                 }
             }
         },
