@@ -2466,6 +2466,9 @@ body.page-checkout table.checkout-review > tbody > tr:nth-child(2) {
 body.page-checkout table.checkout-review > tbody > tr:nth-child(3) {
   display: none;
 }
+body.page-checkout .street-block .form-item:nth-child(2) {
+  display: none;
+}
 
 body.page-checkout-complete .content {
   padding-top: 15px;

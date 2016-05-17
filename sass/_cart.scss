@@ -211,6 +211,11 @@ body.page-checkout{
 			display: none;
 		}
 	}
+	.street-block{
+		.form-item:nth-child(2){
+			display: none;
+		}
+	}
 }
 body.page-checkout-complete{
 	.content{
